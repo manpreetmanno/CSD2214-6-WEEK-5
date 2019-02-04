@@ -5,8 +5,11 @@
     <title>CO742828</title>
     <link href="css/default.css" rel="stylesheet" />
 </head>
-<body>
+<body ONLOAD >
     <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+    <script>
+        var date = new Date();
+        document.body.innerHTML = = "<h1> " + date + " </h1>";
+    </script>
 </body>
 </html>
